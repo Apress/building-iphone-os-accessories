@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* pongAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* pongAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* pongViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* pongViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* pongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* pongViewController.m */; };
+		C101B624110FA1E30027032A /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C101B623110FA1E30027032A /* ExternalAccessory.framework */; };
+		C101B646110FA4970027032A /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = C101B645110FA4970027032A /* GameController.m */; };
+		C19421AA10A643D500884FB4 /* tableGraphic.png in Resources */ = {isa = PBXBuildFile; fileRef = C19421A910A643D500884FB4 /* tableGraphic.png */; };
+		C19421E110A77AE400884FB4 /* compPaddle.png in Resources */ = {isa = PBXBuildFile; fileRef = C19421E010A77AE400884FB4 /* compPaddle.png */; };
+		C19421F610A77E9800884FB4 /* playerPaddleRightUp.png in Resources */ = {isa = PBXBuildFile; fileRef = C19421F210A77E9800884FB4 /* playerPaddleRightUp.png */; };
+		C19421F710A77E9800884FB4 /* playerPaddleRight.png in Resources */ = {isa = PBXBuildFile; fileRef = C19421F310A77E9800884FB4 /* playerPaddleRight.png */; };
+		C19421F810A77E9800884FB4 /* playerPaddleLeftUp.png in Resources */ = {isa = PBXBuildFile; fileRef = C19421F410A77E9800884FB4 /* playerPaddleLeftUp.png */; };
+		C19421F910A77E9800884FB4 /* playerPaddleLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = C19421F510A77E9800884FB4 /* playerPaddleLeft.png */; };
+		C19422CF10A894E200884FB4 /* paddleSound.aif in Resources */ = {isa = PBXBuildFile; fileRef = C19422CE10A894E200884FB4 /* paddleSound.aif */; };
+		C194230A10A8984E00884FB4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C194230910A8984E00884FB4 /* AudioToolbox.framework */; };
+		C1E27C040FE2D97D007ADCB1 /* Ball.png in Resources */ = {isa = PBXBuildFile; fileRef = C1E27BFF0FE2D97D007ADCB1 /* Ball.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* pongAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pongAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* pongAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pongAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* pong.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pong.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* pongViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = pongViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* pongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pongViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* pongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pongViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* pong_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pong_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* pong-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "pong-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C101B623110FA1E30027032A /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		C101B644110FA4970027032A /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		C101B645110FA4970027032A /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		C19421A910A643D500884FB4 /* tableGraphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tableGraphic.png; sourceTree = "<group>"; };
+		C19421E010A77AE400884FB4 /* compPaddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compPaddle.png; sourceTree = "<group>"; };
+		C19421F210A77E9800884FB4 /* playerPaddleRightUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playerPaddleRightUp.png; sourceTree = "<group>"; };
+		C19421F310A77E9800884FB4 /* playerPaddleRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playerPaddleRight.png; sourceTree = "<group>"; };
+		C19421F410A77E9800884FB4 /* playerPaddleLeftUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playerPaddleLeftUp.png; sourceTree = "<group>"; };
+		C19421F510A77E9800884FB4 /* playerPaddleLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playerPaddleLeft.png; sourceTree = "<group>"; };
+		C19422CE10A894E200884FB4 /* paddleSound.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = paddleSound.aif; sourceTree = "<group>"; };
+		C194230910A8984E00884FB4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C1E27BFF0FE2D97D007ADCB1 /* Ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ball.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				C194230A10A8984E00884FB4 /* AudioToolbox.framework in Frameworks */,
+				C101B624110FA1E30027032A /* ExternalAccessory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C101B644110FA4970027032A /* GameController.h */,
+				C101B645110FA4970027032A /* GameController.m */,
+				1D3623240D0F684500981E51 /* pongAppDelegate.h */,
+				1D3623250D0F684500981E51 /* pongAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* pongViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* pongViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* pong.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* pong_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C19422CE10A894E200884FB4 /* paddleSound.aif */,
+				C19421F210A77E9800884FB4 /* playerPaddleRightUp.png */,
+				C19421F310A77E9800884FB4 /* playerPaddleRight.png */,
+				C19421F410A77E9800884FB4 /* playerPaddleLeftUp.png */,
+				C19421F510A77E9800884FB4 /* playerPaddleLeft.png */,
+				C19421E010A77AE400884FB4 /* compPaddle.png */,
+				C19421A910A643D500884FB4 /* tableGraphic.png */,
+				C1E27BFF0FE2D97D007ADCB1 /* Ball.png */,
+				2899E5210DE3E06400AC0155 /* pongViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* pong-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				C194230910A8984E00884FB4 /* AudioToolbox.framework */,
+				C101B623110FA1E30027032A /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* pong */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "pong" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pong;
+			productName = iTennis;
+			productReference = 1D6058910D05DD3D006BFB54 /* pong.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "pong" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* pong */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* pongViewController.xib in Resources */,
+				C1E27C040FE2D97D007ADCB1 /* Ball.png in Resources */,
+				C19421AA10A643D500884FB4 /* tableGraphic.png in Resources */,
+				C19421E110A77AE400884FB4 /* compPaddle.png in Resources */,
+				C19421F610A77E9800884FB4 /* playerPaddleRightUp.png in Resources */,
+				C19421F710A77E9800884FB4 /* playerPaddleRight.png in Resources */,
+				C19421F810A77E9800884FB4 /* playerPaddleLeftUp.png in Resources */,
+				C19421F910A77E9800884FB4 /* playerPaddleLeft.png in Resources */,
+				C19422CF10A894E200884FB4 /* paddleSound.aif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* pongAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* pongViewController.m in Sources */,
+				C101B646110FA4970027032A /* GameController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos3.0]" = "iPhone Developer: Kenneth Maskrey (U73XX5J5F8)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = pong_Prefix.pch;
+				INFOPLIST_FILE = "pong-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1.2;
+				PRODUCT_NAME = pong;
+				"PROVISIONING_PROFILE[sdk=iphoneos3.0]" = "6B9DE3BA-D777-4EC6-8C9B-7A1517FD5AAC";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = pong_Prefix.pch;
+				INFOPLIST_FILE = "pong-Info.plist";
+				PRODUCT_NAME = pong;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos3.1.2]" = "iPhone Developer: Kenneth Maskrey (U73XX5J5F8)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos3.1.2]" = "CC838762-2B13-4058-ADED-3A5FF42AB675";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos3.0]" = "iPhone Developer: Ken Maskrey (69YE26LA97)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos3.0]" = "45382EFF-D026-4249-8A93-4BAC18AF3B44";
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "pong" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,533 @@
+Tpong
+v7
+r0
+t292451810.317450
+cCheck dependencies
+cCpResource build/Debug-iphoneos/pong.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/Info.plist pong-Info.plist
+cCompileXIB /Users/kmaskrey/Documents/00Book/Pong3/MainWindow.xib
+cCompileXIB /Users/kmaskrey/Documents/00Book/Pong3/pongViewController.xib
+cCopyPNGFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/Ball.png Ball.png
+cCopyPNGFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/tableGraphic.png tableGraphic.png
+cCopyPNGFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/compPaddle.png compPaddle.png
+cCopyPNGFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleRightUp.png playerPaddleRightUp.png
+cCopyPNGFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleRight.png playerPaddleRight.png
+cCopyPNGFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleLeftUp.png playerPaddleLeftUp.png
+cCopyPNGFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleLeft.png playerPaddleLeft.png
+cCpResource build/Debug-iphoneos/pong.app/paddleSound.aif paddleSound.aif
+cProcessPCH /var/folders/dN/dNCqT6KGGLGoaozMfkt0GU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pong_Prefix-cctfktspceaxahgfhcszbwqrlfvj/pong_Prefix.pch.gch pong_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/main.o /Users/kmaskrey/Documents/00Book/Pong3/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/pongAppDelegate.o /Users/kmaskrey/Documents/00Book/Pong3/Classes/pongAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/pongViewController.o /Users/kmaskrey/Documents/00Book/Pong3/Classes/pongViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/GameController.o /Users/kmaskrey/Documents/00Book/Pong3/Classes/GameController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/pong normal armv6
+cGenerateDSYMFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app.dSYM /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/pong
+cProcessProductPackaging "/Users/kmaskrey/Library/MobileDevice/Provisioning Profiles/CC838762-2B13-4058-ADED-3A5FF42AB675.mobileprovision" /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/embedded.mobileprovision
+cTouch /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app
+cProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong.xcent
+cCodeSign /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk
+c000000004ABFDAFE0000000000000110
+t1254087422
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+c000000004ABDB88400000000000000DD
+t1253947524
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+c000000004ABDB88400000000000001E5
+t1253947524
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004ABDBC2D00000000002E0B30
+t1253948461
+s3017520
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/AudioToolbox.framework/Headers/AudioToolbox.h
+c000000004ABDBC030000000000000A22
+t1253948419
+s2594
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDBA1300000000005F4900
+t1253947923
+s6244608
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/ExternalAccessory
+c000000004ABDC9C9000000000001EDD0
+t1253951945
+s126416
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/ExternalAccessory.framework/Headers/ExternalAccessory.h
+c000000004ABDC9C70000000000000126
+t1253951943
+s294
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDBDCF0000000000501370
+t1253948879
+s5247856
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDBDA40000000000001355
+t1253948836
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDD0D10000000000000788
+t1253953745
+s1928
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDD2250000000001B3F450
+t1253954085
+s28570704
+
+N/Users/kmaskrey/Documents/00Book/Pong3/Ball.png
+c000000004AF60DA20000000000000120
+t1257639330
+s288
+
+N/Users/kmaskrey/Documents/00Book/Pong3/Classes/GameController.h
+c000000004B65CB470000000000000324
+t1264962375
+s804
+i<Foundation/Foundation.h>
+i"pongAppDelegate.h"
+i<ExternalAccessory/ExternalAccessory.h>
+
+N/Users/kmaskrey/Documents/00Book/Pong3/Classes/GameController.m
+c000000004B69A5F7000000000000167D
+t1265214967
+s5757
+i"GameController.h"
+
+N/Users/kmaskrey/Documents/00Book/Pong3/Classes/pongAppDelegate.h
+c000000004B6096670000000000000201
+t1264621159
+s513
+i<UIKit/UIKit.h>
+
+N/Users/kmaskrey/Documents/00Book/Pong3/Classes/pongAppDelegate.m
+c000000004B609675000000000000027C
+t1264621173
+s636
+i"pongAppDelegate.h"
+i"pongViewController.h"
+
+N/Users/kmaskrey/Documents/00Book/Pong3/Classes/pongViewController.h
+c000000004B633F9D0000000000001065
+t1264795549
+s4197
+i<UIKit/UIKit.h>
+i<AudioToolbox/AudioToolbox.h>
+i<ExternalAccessory/ExternalAccessory.h>
+i"GameController.h"
+i"pongAppDelegate.h"
+
+N/Users/kmaskrey/Documents/00Book/Pong3/Classes/pongViewController.m
+c000000004B6C8F8C00000000000043F2
+t1265405836
+s17394
+i"pongViewController.h"
+
+N/Users/kmaskrey/Documents/00Book/Pong3/MainWindow.xib
+c000000004AF60E7C0000000000004E12
+t1257639548
+s19986
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app
+t1270759010
+s646
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app.dSYM
+t1270759008
+s102
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/Ball.png
+t1270759005
+s458
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/Info.plist
+t1270759000
+s671
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/MainWindow.nib
+t1270759004
+s1489
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/PkgInfo
+t1270759000
+s8
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/ResourceRules.plist
+t1270759000
+s485
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/compPaddle.png
+t1270759005
+s2791
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/embedded.mobileprovision
+t1270759008
+s7711
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/paddleSound.aif
+t1270759005
+s70984
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleLeft.png
+t1270759005
+s2864
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleLeftUp.png
+t1270759005
+s4127
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleRight.png
+t1270759005
+s2870
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleRightUp.png
+t1270759005
+s4005
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/pong
+t1270759008
+s55068
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/pongViewController.nib
+t1270759004
+s4742
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/tableGraphic.png
+t1270759005
+s2690
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/GameController.o
+t1270759007
+s34324
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/main.o
+t1270759006
+s6548
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/pong.LinkFileList
+c000000004BBE3E5700000000000001DB
+t1270758999
+s475
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/pongAppDelegate.o
+t1270759007
+s43420
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/pongViewController.o
+t1270759007
+s91280
+
+N/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong.xcent
+t1270759008
+s307
+
+N/Users/kmaskrey/Documents/00Book/Pong3/compPaddle.png
+c000000004AF7433C0000000000000BB3
+t1257718588
+s2995
+
+N/Users/kmaskrey/Documents/00Book/Pong3/main.m
+c000000004B4CA2460000000000000167
+t1263313478
+s359
+i<UIKit/UIKit.h>
+
+N/Users/kmaskrey/Documents/00Book/Pong3/paddleSound.aif
+c000000004AF706630000000000011548
+t1257703011
+s70984
+
+N/Users/kmaskrey/Documents/00Book/Pong3/playerPaddleLeft.png
+c000000004AF7468E0000000000000BFA
+t1257719438
+s3066
+
+N/Users/kmaskrey/Documents/00Book/Pong3/playerPaddleLeftUp.png
+c000000004AF746B900000000000023BD
+t1257719481
+s9149
+
+N/Users/kmaskrey/Documents/00Book/Pong3/playerPaddleRight.png
+c000000004AF746E10000000000000BF7
+t1257719521
+s3063
+
+N/Users/kmaskrey/Documents/00Book/Pong3/playerPaddleRightUp.png
+c000000004AF746F7000000000000163C
+t1257719543
+s5692
+
+N/Users/kmaskrey/Documents/00Book/Pong3/pongViewController.xib
+c000000004AF876610000000000007BEC
+t1257797217
+s31724
+
+N/Users/kmaskrey/Documents/00Book/Pong3/pong_Prefix.pch
+c000000004A32A1C800000000000000B7
+t1244832200
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/kmaskrey/Documents/00Book/Pong3/tableGraphic.png
+c000000004AF60C4600000000000004AB
+t1257638982
+s1195
+
+N/Users/kmaskrey/Library/MobileDevice/Provisioning Profiles/CC838762-2B13-4058-ADED-3A5FF42AB675.mobileprovision
+c000000004BA29E970000000000001E1F
+t1268948631
+s7711
+
+N/var/folders/dN/dNCqT6KGGLGoaozMfkt0GU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pong_Prefix-cctfktspceaxahgfhcszbwqrlfvj/pong_Prefix.pch.gch
+t1270759006
+s7876792
+
+Npong-Info.plist
+c000000004B5F753300000000000003CD
+t1264547123
+s973
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies292451799#292451799#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCodeSign /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app
+s292451808.643729
+e292451810.317256
+r1
+xCodeSign
+x/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app
+lSLF07#2@38"CodeSign build/Debug-iphoneos/pong.app292451808#292451810#0(0"0(0#0#68"/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app4300885448#634"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Kenneth Maskrey (U73XX5J5F8)" --resource-rules=/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/ResourceRules.plist --entitlements /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong.xcent /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app0#
+
+CCompileC build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/GameController.o /Users/kmaskrey/Documents/00Book/Pong3/Classes/GameController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292451807.244728
+e292451807.325375
+r1
+xCompileC
+xbuild/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/GameController.o
+x/Users/kmaskrey/Documents/00Book/Pong3/Classes/GameController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/kmaskrey/Documents/00Book/Pong3/Classes/GameController.m292451807#292451807#0(0"0(0#0#63"/Users/kmaskrey/Documents/00Book/Pong3/Classes/GameController.m4300885448#1696"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-generated-files.hmap -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-own-target-headers.hmap -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-all-target-headers.hmap -iquote /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-project-headers.hmap -F/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos -I/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/include -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/DerivedSources/armv6 -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/DerivedSources -include /var/folders/dN/dNCqT6KGGLGoaozMfkt0GU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pong_Prefix-cctfktspceaxahgfhcszbwqrlfvj/pong_Prefix.pch -c /Users/kmaskrey/Documents/00Book/Pong3/Classes/GameController.m -o /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/GameController.o0#
+
+CCompileC build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/main.o /Users/kmaskrey/Documents/00Book/Pong3/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292451806.841691
+e292451806.955945
+r1
+xCompileC
+xbuild/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/main.o
+x/Users/kmaskrey/Documents/00Book/Pong3/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@53"Compile /Users/kmaskrey/Documents/00Book/Pong3/main.m292451806#292451806#0(0"0(0#0#45"/Users/kmaskrey/Documents/00Book/Pong3/main.m4300885448#1668"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-generated-files.hmap -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-own-target-headers.hmap -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-all-target-headers.hmap -iquote /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-project-headers.hmap -F/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos -I/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/include -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/DerivedSources/armv6 -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/DerivedSources -include /var/folders/dN/dNCqT6KGGLGoaozMfkt0GU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pong_Prefix-cctfktspceaxahgfhcszbwqrlfvj/pong_Prefix.pch -c /Users/kmaskrey/Documents/00Book/Pong3/main.m -o /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/main.o0#
+
+CCompileC build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/pongAppDelegate.o /Users/kmaskrey/Documents/00Book/Pong3/Classes/pongAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292451806.956059
+e292451807.041523
+r1
+xCompileC
+xbuild/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/pongAppDelegate.o
+x/Users/kmaskrey/Documents/00Book/Pong3/Classes/pongAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/kmaskrey/Documents/00Book/Pong3/Classes/pongAppDelegate.m292451806#292451807#0(0"0(0#0#64"/Users/kmaskrey/Documents/00Book/Pong3/Classes/pongAppDelegate.m4300885448#1698"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-generated-files.hmap -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-own-target-headers.hmap -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-all-target-headers.hmap -iquote /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-project-headers.hmap -F/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos -I/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/include -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/DerivedSources/armv6 -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/DerivedSources -include /var/folders/dN/dNCqT6KGGLGoaozMfkt0GU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pong_Prefix-cctfktspceaxahgfhcszbwqrlfvj/pong_Prefix.pch -c /Users/kmaskrey/Documents/00Book/Pong3/Classes/pongAppDelegate.m -o /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/pongAppDelegate.o0#
+
+CCompileC build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/pongViewController.o /Users/kmaskrey/Documents/00Book/Pong3/Classes/pongViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292451807.041634
+e292451807.244627
+r1
+xCompileC
+xbuild/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/pongViewController.o
+x/Users/kmaskrey/Documents/00Book/Pong3/Classes/pongViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/kmaskrey/Documents/00Book/Pong3/Classes/pongViewController.m: In function '-[pongViewController touchesMoved:withEvent:]':
+o/Users/kmaskrey/Documents/00Book/Pong3/Classes/pongViewController.m:347: warning: unused variable 'xLocation'
+lSLF07#2@75"Compile /Users/kmaskrey/Documents/00Book/Pong3/Classes/pongViewController.m292451807#292451807#0(240"/Users/kmaskrey/Documents/00Book/Pong3/Classes/pongViewController.m: In function '-[pongViewController touchesMoved:withEvent:]':/Users/kmaskrey/Documents/00Book/Pong3/Classes/pongViewController.m:347: warning: unused variable 'xLocation'1(22@27"Unused variable 'xLocation'292451807#130#110#0(6@67"/Users/kmaskrey/Documents/00Book/Pong3/Classes/pongViewController.m287098636#347#0#347#0#19"unused variable '*'0(0#0#67"/Users/kmaskrey/Documents/00Book/Pong3/Classes/pongViewController.m4300885448#1704"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-generated-files.hmap -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-own-target-headers.hmap -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-all-target-headers.hmap -iquote /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-project-headers.hmap -F/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos -I/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/include -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/DerivedSources/armv6 -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/DerivedSources -include /var/folders/dN/dNCqT6KGGLGoaozMfkt0GU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pong_Prefix-cctfktspceaxahgfhcszbwqrlfvj/pong_Prefix.pch -c /Users/kmaskrey/Documents/00Book/Pong3/Classes/pongViewController.m -o /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/pongViewController.o0#
+
+CCompileXIB /Users/kmaskrey/Documents/00Book/Pong3/MainWindow.xib
+s292451800.267054
+e292451805.030657
+r1
+xCompileXIB
+x/Users/kmaskrey/Documents/00Book/Pong3/MainWindow.xib
+oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
+lSLF07#2@25"CompileXIB MainWindow.xib292451800#292451805#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#53"/Users/kmaskrey/Documents/00Book/Pong3/MainWindow.xib4300885448#465"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/MainWindow.nib /Users/kmaskrey/Documents/00Book/Pong3/MainWindow.xib0#
+
+CCompileXIB /Users/kmaskrey/Documents/00Book/Pong3/pongViewController.xib
+s292451800.267784
+e292451805.043506
+r1
+xCompileXIB
+x/Users/kmaskrey/Documents/00Book/Pong3/pongViewController.xib
+lSLF07#2@33"CompileXIB pongViewController.xib292451800#292451805#0(0"0(0#0#61"/Users/kmaskrey/Documents/00Book/Pong3/pongViewController.xib4300885448#481"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/pongViewController.nib /Users/kmaskrey/Documents/00Book/Pong3/pongViewController.xib0#
+
+CCopyPNGFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/Ball.png Ball.png
+s292451805.030862
+e292451805.599823
+r1
+xCopyPNGFile
+x/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/Ball.png
+xBall.png
+lSLF07#2@59"CopyPNGFile build/Debug-iphoneos/pong.app/Ball.png Ball.png292451805#292451805#0(0"0(0#0#47"/Users/kmaskrey/Documents/00Book/Pong3/Ball.png4300885448#553"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/kmaskrey/Documents/00Book/Pong3/Ball.png /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/Ball.png0#
+
+CCopyPNGFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/compPaddle.png compPaddle.png
+s292451805.599981
+e292451805.662072
+r1
+xCopyPNGFile
+x/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/compPaddle.png
+xcompPaddle.png
+lSLF07#2@71"CopyPNGFile build/Debug-iphoneos/pong.app/compPaddle.png compPaddle.png292451805#292451805#0(0"0(0#0#53"/Users/kmaskrey/Documents/00Book/Pong3/compPaddle.png4300885448#565"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/kmaskrey/Documents/00Book/Pong3/compPaddle.png /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/compPaddle.png0#
+
+CCopyPNGFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleLeft.png playerPaddleLeft.png
+s292451805.695953
+e292451805.729430
+r1
+xCopyPNGFile
+x/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleLeft.png
+xplayerPaddleLeft.png
+lSLF07#2@83"CopyPNGFile build/Debug-iphoneos/pong.app/playerPaddleLeft.png playerPaddleLeft.png292451805#292451805#0(0"0(0#0#59"/Users/kmaskrey/Documents/00Book/Pong3/playerPaddleLeft.png4300885448#577"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/kmaskrey/Documents/00Book/Pong3/playerPaddleLeft.png /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleLeft.png0#
+
+CCopyPNGFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleLeftUp.png playerPaddleLeftUp.png
+s292451805.694548
+e292451805.728403
+r1
+xCopyPNGFile
+x/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleLeftUp.png
+xplayerPaddleLeftUp.png
+lSLF07#2@87"CopyPNGFile build/Debug-iphoneos/pong.app/playerPaddleLeftUp.png playerPaddleLeftUp.png292451805#292451805#0(0"0(0#0#61"/Users/kmaskrey/Documents/00Book/Pong3/playerPaddleLeftUp.png4300885448#581"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/kmaskrey/Documents/00Book/Pong3/playerPaddleLeftUp.png /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleLeftUp.png0#
+
+CCopyPNGFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleRight.png playerPaddleRight.png
+s292451805.662172
+e292451805.695833
+r1
+xCopyPNGFile
+x/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleRight.png
+xplayerPaddleRight.png
+lSLF07#2@85"CopyPNGFile build/Debug-iphoneos/pong.app/playerPaddleRight.png playerPaddleRight.png292451805#292451805#0(0"0(0#0#60"/Users/kmaskrey/Documents/00Book/Pong3/playerPaddleRight.png4300885448#579"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/kmaskrey/Documents/00Book/Pong3/playerPaddleRight.png /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleRight.png0#
+
+CCopyPNGFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleRightUp.png playerPaddleRightUp.png
+s292451805.634867
+e292451805.694442
+r1
+xCopyPNGFile
+x/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleRightUp.png
+xplayerPaddleRightUp.png
+lSLF07#2@89"CopyPNGFile build/Debug-iphoneos/pong.app/playerPaddleRightUp.png playerPaddleRightUp.png292451805#292451805#0(0"0(0#0#62"/Users/kmaskrey/Documents/00Book/Pong3/playerPaddleRightUp.png4300885448#583"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/kmaskrey/Documents/00Book/Pong3/playerPaddleRightUp.png /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/playerPaddleRightUp.png0#
+
+CCopyPNGFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/tableGraphic.png tableGraphic.png
+s292451805.043612
+e292451805.634774
+r1
+xCopyPNGFile
+x/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/tableGraphic.png
+xtableGraphic.png
+lSLF07#2@75"CopyPNGFile build/Debug-iphoneos/pong.app/tableGraphic.png tableGraphic.png292451805#292451805#0(0"0(0#0#55"/Users/kmaskrey/Documents/00Book/Pong3/tableGraphic.png4300885448#569"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv COPY_COMMAND /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    "/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Plug-ins/iPhoneOS Build System Support.xcplugin/Contents/Resources/copypng" -compress "" /Users/kmaskrey/Documents/00Book/Pong3/tableGraphic.png /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/tableGraphic.png0#
+
+CCpResource build/Debug-iphoneos/pong.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+s292451799.971114
+e292451800.266964
+r1
+xCpResource
+xbuild/Debug-iphoneos/pong.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist
+lSLF07#2@96"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist292451800#292451800#0(0"0(0#0#91"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist8386103210209923072#479"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/ResourceRules.plist /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app0#
+
+CCpResource build/Debug-iphoneos/pong.app/paddleSound.aif paddleSound.aif
+s292451805.728509
+e292451805.735906
+r1
+xCpResource
+xbuild/Debug-iphoneos/pong.app/paddleSound.aif
+xpaddleSound.aif
+lSLF07#2@20"Copy paddleSound.aif292451805#292451805#0(0"0(0#0#54"/Users/kmaskrey/Documents/00Book/Pong3/paddleSound.aif4300885448#442"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/kmaskrey/Documents/00Book/Pong3/paddleSound.aif /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app0#
+
+CGenerateDSYMFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app.dSYM /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/pong
+s292451808.143642
+e292451808.449008
+r1
+xGenerateDSYMFile
+x/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app.dSYM
+x/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/pong
+lSLF07#2@86"GenerateDSYMFile build/Debug-iphoneos/pong.app.dSYM build/Debug-iphoneos/pong.app/pong292451808#292451808#0(0"0(0#0#73"/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/pong4300885448#353"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/pong -o /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app.dSYM0#
+
+CLd /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/pong normal armv6
+s292451807.325476
+e292451808.143546
+r1
+xLd
+x/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/pong
+xnormal
+xarmv6
+lSLF07#2@78"Link /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/pong292451807#292451808#0(0"0(0#0#0"4300885448#933"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1.2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -L/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos -F/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos -filelist /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/Objects-normal/armv6/pong.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.1.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework ExternalAccessory -o /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/pong0#
+
+CProcessInfoPlistFile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/Info.plist pong-Info.plist
+s292451800.172194
+e292451800.211412
+r1
+xProcessInfoPlistFile
+x/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/Info.plist
+xpong-Info.plist
+lSLF07#2@23"Process pong-Info.plist292451800#292451800#0(0"0(0#0#54"/Users/kmaskrey/Documents/00Book/Pong3/pong-Info.plist4300885448#550"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility pong-Info.plist -genpkginfo /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/ResourceRules.plist -o /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/Info.plist0#
+
+CProcessPCH /var/folders/dN/dNCqT6KGGLGoaozMfkt0GU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pong_Prefix-cctfktspceaxahgfhcszbwqrlfvj/pong_Prefix.pch.gch pong_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s292451805.736141
+e292451806.841477
+r1
+xProcessPCH
+x/var/folders/dN/dNCqT6KGGLGoaozMfkt0GU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pong_Prefix-cctfktspceaxahgfhcszbwqrlfvj/pong_Prefix.pch.gch
+xpong_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile pong_Prefix.pch292451805#292451806#0(0"0(0#0#54"/Users/kmaskrey/Documents/00Book/Pong3/pong_Prefix.pch4300885448#1569"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.1.2 -iquote /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-generated-files.hmap -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-own-target-headers.hmap -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-all-target-headers.hmap -iquote /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong-project-headers.hmap -F/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos -I/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/include -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/DerivedSources/armv6 -I/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/DerivedSources -c /Users/kmaskrey/Documents/00Book/Pong3/pong_Prefix.pch -o /var/folders/dN/dNCqT6KGGLGoaozMfkt0GU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/pong_Prefix-cctfktspceaxahgfhcszbwqrlfvj/pong_Prefix.pch.gch0#
+
+CProcessProductPackaging "/Users/kmaskrey/Library/MobileDevice/Provisioning Profiles/CC838762-2B13-4058-ADED-3A5FF42AB675.mobileprovision" /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/embedded.mobileprovision
+s292451808.449236
+e292451808.505303
+r1
+xProcessProductPackaging
+x/Users/kmaskrey/Library/MobileDevice/Provisioning Profiles/CC838762-2B13-4058-ADED-3A5FF42AB675.mobileprovision
+x/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/embedded.mobileprovision
+lSLF07#2@192"ProcessProductPackaging "/Users/kmaskrey/Library/MobileDevice/Provisioning Profiles/CC838762-2B13-4058-ADED-3A5FF42AB675.mobileprovision" build/Debug-iphoneos/pong.app/embedded.mobileprovision292451808#292451808#0(0"0(0#0#93"/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/embedded.mobileprovision4300885448#423"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/kmaskrey/Library/MobileDevice/Provisioning Profiles/CC838762-2B13-4058-ADED-3A5FF42AB675.mobileprovision" -o /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app/embedded.mobileprovision0#
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong.xcent
+s292451808.605429
+e292451808.643644
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist
+x/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong.xcent
+lSLF07#2@168"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist build/pong.build/Debug-iphoneos/pong.build/pong.xcent292451808#292451808#0(0"0(0#0#92"/Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong.xcent4300885448#425"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/Entitlements.plist -entitlements -format xml -o /Users/kmaskrey/Documents/00Book/Pong3/build/pong.build/Debug-iphoneos/pong.build/pong.xcent0#
+
+CTouch /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app
+s292451808.505381
+e292451808.605318
+r1
+xTouch
+x/Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app
+lSLF07#2@74"Touch /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app292451808#292451808#0(0"0(0#0#0"4300885448#261"    cd /Users/kmaskrey/Documents/00Book/Pong3    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/kmaskrey/Documents/00Book/Pong3/build/Debug-iphoneos/pong.app0#
+
